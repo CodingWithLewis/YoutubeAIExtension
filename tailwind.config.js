@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: "jit",
   darkMode: ["class"],
   content: ["./**/*.{ts,tsx}"],
   theme: {
@@ -11,6 +12,9 @@ module.exports = {
       }
     },
     extend: {
+      fontSize: {
+        base: 1.6
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
