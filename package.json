@@ -1,8 +1,8 @@
 {
-  "name": "you-tube-ai",
-  "displayName": "You tube ai",
-  "version": "0.0.1",
-  "description": "Let's you chat with a YouTube video",
+  "name": "YouTubeAIChat",
+  "displayName": "YouTubeAIChat",
+  "version": "0.1",
+  "description": "Let's you chat with a YouTube video in a pop up chat box!",
   "author": "Lewis Menelaws",
   "scripts": {
     "dev": "concurrently \"plasmo dev\" \"tailwindcss -i ./styles/globals.css -o ./styles/tailwind.css --watch\"",

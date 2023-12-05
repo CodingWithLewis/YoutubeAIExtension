@@ -10,7 +10,7 @@ function IndexPopup() {
         flexDirection: "column",
         padding: 16
       }}>
-      <h2>
+      {/* <h2>
         Welcome to your
         <a href="https://www.plasmo.com" target="_blank">
           {" "}
@@ -21,7 +21,7 @@ function IndexPopup() {
       <input onChange={(e) => setData(e.target.value)} value={data} />
       <a href="https://docs.plasmo.com" target="_blank">
         View Docs
-      </a>
+      </a> */}
     </div>
   )
 }
